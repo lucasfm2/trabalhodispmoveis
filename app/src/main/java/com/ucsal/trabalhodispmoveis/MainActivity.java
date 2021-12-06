@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
     public void buttonPressed(View view) {
         String tag = view.getTag().toString().toLowerCase();
         switch (tag) {
+            case "exitbutton": {
+                Intent intent = new Intent(MainActivity.this, CloseActivity.class);
+                startActivity(intent);
+                break;
+            }
             case "apibutton": {
                 Intent intent = new Intent(MainActivity.this, ApiActivity.class);
                 startActivity(intent);
