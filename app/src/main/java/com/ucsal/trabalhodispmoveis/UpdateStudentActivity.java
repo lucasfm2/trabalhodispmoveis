@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.ucsal.trabalhodispmoveis.repositories.StudentRepository;
+
 public class UpdateStudentActivity extends AppCompatActivity {
 
     @Override
@@ -23,7 +25,7 @@ public class UpdateStudentActivity extends AppCompatActivity {
         String newName = newNameET.getText().toString();
         String newMobile = mobileET.getText().toString();
 
-        DatabaseHandler.updateUsingName(oldName, newName, newMobile);
+        StudentRepository.updateUsingName(oldName, newName, newMobile);
         Toast.makeText(this, "Record updated", Toast.LENGTH_SHORT).show();
 
         oldNameET.setText("");

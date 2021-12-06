@@ -15,11 +15,12 @@
         <entry key="..\:/Users/Alexandre/AndroidStudioProjects/SQLite-CRUD-Android-Tutorial/app/src/main/res/layout/activity_view_students.xml" value="0.1" />
         <entry key="..\:/Users/Alexandre/AndroidStudioProjects/trabalhodispmoveis/app/src/main/res/layout/activity_api.xml" value="0.12" />
         <entry key="..\:/Users/Alexandre/AndroidStudioProjects/trabalhodispmoveis/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android-studio/trabalhodispmoveis/app/src/main/res/layout/activity_api.xml" value="0.20108695652173914" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

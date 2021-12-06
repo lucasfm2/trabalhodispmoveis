@@ -8,10 +8,12 @@
 
     <TextView
         android:id="@+id/textview"
-        android:layout_width="239dp"
-        android:layout_height="421dp"
-        android:text="olá mundo"
+        android:layout_width="305dp"
+        android:layout_height="441dp"
+        android:text="Carregando..."
         android:textSize="48sp"
+        android:textAlignment="center"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

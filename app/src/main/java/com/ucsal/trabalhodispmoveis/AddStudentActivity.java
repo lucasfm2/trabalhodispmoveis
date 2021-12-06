@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.ucsal.trabalhodispmoveis.repositories.StudentRepository;
+
 public class AddStudentActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class AddStudentActivity extends AppCompatActivity {
 
 
     private void addToDatabase(String name, String mobile) {
-        DatabaseHandler.addToDatabase(name, mobile);
+        StudentRepository.addToDatabase(name, mobile);
         Toast.makeText(this, "Record Added",Toast.LENGTH_SHORT).show();
     }
 }

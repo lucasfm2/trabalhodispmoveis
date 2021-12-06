@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.ucsal.trabalhodispmoveis.repositories.StudentRepository;
+
 public class MainActivity extends AppCompatActivity {
     private SQLiteDatabase db;
 
@@ -13,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        DatabaseHandler.loadDatabase(this);
+        StudentRepository.loadDatabase(this);
     }
 
     public void buttonPressed(View view) {

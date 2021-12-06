@@ -1,4 +1,4 @@
-package com.ucsal.trabalhodispmoveis;
+package com.ucsal.trabalhodispmoveis.repositories;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 import static android.content.Context.MODE_PRIVATE;
 
-public class DatabaseHandler {
+public class StudentRepository {
     private static SQLiteDatabase db;
     private static Cursor cr;
     private static int count = 1; //primary key of database

@@ -12,6 +12,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ucsal.trabalhodispmoveis.repositories.StudentRepository;
+
 public class ViewStudentsActivity extends AppCompatActivity {
     private Cursor cr;
     @Override
@@ -25,7 +27,7 @@ public class ViewStudentsActivity extends AppCompatActivity {
 
     public void displayStudents(){
 
-        cr = DatabaseHandler.readDatabase();
+        cr = StudentRepository.readDatabase();
         LinearLayout parent = (LinearLayout) findViewById(R.id.myLinearLayout);
 
 

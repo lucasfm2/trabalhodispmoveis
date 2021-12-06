@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.ucsal.trabalhodispmoveis.repositories.StudentRepository;
+
 public class DeleteStudentActivity extends AppCompatActivity {
 
     @Override
@@ -17,7 +19,7 @@ public class DeleteStudentActivity extends AppCompatActivity {
     public void deleteButtonPressed(View view) {
         EditText editText = findViewById(R.id.deleteEditText);
         String text = editText.getText().toString();
-        int deleted = DatabaseHandler.deleteUsingName(text);
+        int deleted = StudentRepository.deleteUsingName(text);
         Toast.makeText(this, deleted +" records deleted", Toast.LENGTH_SHORT).show();
         editText.setText("");
     }
