@@ -1,22 +1,16 @@
 package com.ucsal.trabalhodispmoveis;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.teepstech.sqlitecrud.R;
-
-import java.util.Scanner;
 
 public class ViewStudentsActivity extends AppCompatActivity {
     private Cursor cr;

@@ -7,7 +7,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     defaultConfig {
-        applicationId "com.teepstech.sqlitecrud"
+        applicationId "com.ucsal.trabalhodispmoveis"
         minSdkVersion 16
         versionCode 1
         versionName "1.0"

@@ -1,10 +1,8 @@
 package com.ucsal.trabalhodispmoveis;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-
-import com.teepstech.sqlitecrud.R;
 
 import retrofit2.Call;
 import retrofit2.Callback;
