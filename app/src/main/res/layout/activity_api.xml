@@ -11,7 +11,7 @@
         android:layout_width="305dp"
         android:layout_height="441dp"
         android:text="Carregando..."
-        android:textSize="48sp"
+        android:textSize="20sp"
         android:textAlignment="center"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
