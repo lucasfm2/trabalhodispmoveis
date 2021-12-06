@@ -1,4 +1,4 @@
-package com.teepstech.sqlitecrud;
+package com.ucsal.trabalhodispmoveis;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
+import com.teepstech.sqlitecrud.R;
 import java.util.Scanner;
 
 public class AddStudentActivity extends AppCompatActivity {

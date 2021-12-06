@@ -51,4 +51,11 @@
         android:onClick="buttonPressed"
         android:tag="deleteButton"
         android:text="Delete A Student" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonPressed"
+        android:tag="apiButton"
+        android:text="Api" />
 </android.widget.LinearLayout>

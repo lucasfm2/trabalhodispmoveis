@@ -1,4 +1,4 @@
-package com.teepstech.sqlitecrud;
+package com.ucsal.trabalhodispmoveis;
 
 import android.content.Context;
 import android.database.Cursor;

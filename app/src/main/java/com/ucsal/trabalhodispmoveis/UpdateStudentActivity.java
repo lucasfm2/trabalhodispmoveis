@@ -1,10 +1,12 @@
-package com.teepstech.sqlitecrud;
+package com.ucsal.trabalhodispmoveis;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.teepstech.sqlitecrud.R;
 
 public class UpdateStudentActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.teepstech.sqlitecrud;
+package com.ucsal.trabalhodispmoveis;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,6 +13,8 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.teepstech.sqlitecrud.R;
 
 import java.util.Scanner;
 
